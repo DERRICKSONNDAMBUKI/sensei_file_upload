@@ -38,7 +38,7 @@ http
             res.write(err);
             res.end();
           } else {
-            res.write("SUCCESS, image uploaded successfully!");
+            res.write("<p>SUCCESS, image uploaded successfully! <a href='/download'/></p>");
             res.end();
           }
         });
